@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ page_title }}</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<h1> THOSE are the information about our server  </h1>
+  <ul>
+  <li>the hostname of the server is {{ ansible_hostname | lower }}</li>
+  <li>the server is runing on  {{ ansible_distribution | lower  }}</li>
+  <li>The home directory is  {{ ansible_distribution | lower  }}</li>
+  <li>The host IP  is  {{ ansible_host | lower  }}</li>
+</ul>
+<h2>l'éditeur de ce jolie playbook s'appelle {{ editor }}</h2>
+  </body>
+</html>

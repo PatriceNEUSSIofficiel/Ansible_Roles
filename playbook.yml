@@ -1,0 +1,6 @@
+---
+- name: "Configuration of apache2 server"
+  hosts: all
+  become: true
+  roles:
+    - deployment

@@ -1,0 +1,6 @@
+[containeurs]
+container-1 ansible_port=3001
+container-2 ansible_port=3002
+container-3 ansible_port=3003
+container-4 ansible_port=3004
+container-5 ansible_port=3005

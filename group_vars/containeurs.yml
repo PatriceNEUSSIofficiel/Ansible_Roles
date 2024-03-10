@@ -1,0 +1,4 @@
+ansible_ssh_private_key_file: /home/haruna/playbooks/tp-09/docker
+ansible_user: sshuser 
+ansible_host: localhost 
+ansible_sudo_pass: harouna
