@@ -1,6 +1,6 @@
-# Ansible Roles exercice
+# Ansible Roles 
 
-## exercice goals  
+##  goals  
 
  1. Create ansible playbook 
  2. Create  `configuration` role in `roles` folder directory  that will be use to configure apache2 webserver
