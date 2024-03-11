@@ -26,5 +26,5 @@
   template: 
     src: "{{ port_src_file }}"
     dest: "{{ port_dest_file }}"
-  notify: "Restarting server based on file changing"
+  notify: "Restarting server based on file changing first"
 

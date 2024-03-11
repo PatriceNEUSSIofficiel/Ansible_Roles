@@ -1,5 +1,5 @@
 ---
-- name: "Configuration of apache2 server"
+- name: "Configuration of apache2 server processes"
   hosts: all
   become: true
   roles:
